@@ -30,3 +30,16 @@ form {
     }
 }
 
+.apagando {
+    animation: fadeout 1s;
+}
+
+
+@keyrames fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

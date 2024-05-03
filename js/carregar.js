@@ -16,7 +16,7 @@ function card(tarefa) {
         <progress class="nes-progress is-pattern" value="${tarefa.pontos}" max="100"></progress>
 
         <button type="button" class="nes-btn is-primary">-</button>
-        <button type="button" class="nes-btn is-error">Apagar</button>
+        <button onclick="apagar('${tarefa.id}')" type="button" class="nes-btn is-error">Apagar</button>
         <button type="button" class="nes-btn is-primary">+</button>
     </div>
     `;
